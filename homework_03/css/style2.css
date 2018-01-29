@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: rgba(198, 238, 252, 0.53); }
+  body #content {
+    display: block;
+    background-color: #3b3b3b;
+    height: 100%;
+    width: 1050px;
+    margin: auto;
+    margin-top: 15px;
+    padding-left: 20px; }
+    body #content h1 {
+      color: #fccd10;
+      text-align: center;
+      padding-top: 12px;
+      height: 50px; }
+    body #content h2 {
+      color: #fccd10;
+      height: 50px; }
+    body #content .img-left {
+      float: left;
+      padding: 2px;
+      margin: 0 20px 15px 0;
+      border: 2px solid #fccd10; }
+    body #content .img-right {
+      float: right;
+      padding: 2px;
+      margin: 0px 15px 10px 10px;
+      border: 2px solid #fccd10; }
+    body #content p {
+      color: #ffffff;
+      margin-bottom: 20px; }
+  body .brief {
+    width: 97%;
+    height: 35px;
+    background-color: #fff178;
+    float: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 50px; }
+  body a {
+    color: #f5c70f; }
+  body table {
+    width: 90%;
+    margin-bottom: 60px; }
+    body table caption {
+      text-align: right;
+      font-weight: bold; }
+    body table th {
+      height: 40px;
+      background-color: #94a34e;
+      text-align: left;
+      padding-left: 15px;
+      font-weight: normal;
+      font-size: 13pt;
+      text-transform: uppercase; }
+    body table td {
+      border-bottom: 1px solid #94a34e;
+      padding-left: 15px;
+      height: 50px;
+      background-color: #677d01;
+      color: #ffffff; }
+  body .input_place {
+    display: block;
+    background: #3b3b3b;
+    height: 510px;
+    width: 100%; }
+    body .input_place h2 {
+      color: rgba(198, 238, 252, 0.53); }
+    body .input_place p {
+      text-transform: uppercase;
+      color: #f5c70f !important;
+      margin-top: 5px;
+      margin-bottom: 0px !important; }
+    body .input_place .name_input {
+      float: left; }
+      body .input_place .name_input input {
+        width: 500px;
+        height: 25px;
+        padding-left: 10px; }
+    body .input_place .right_input {
+      float: right;
+      margin-right: 10px; }
+      body .input_place .right_input input {
+        width: 500px;
+        height: 25px;
+        padding-left: 10px; }
+    body .input_place .left_input {
+      float: left;
+      text-transform: uppercase;
+      margin-top: 10px; }
+      body .input_place .left_input input {
+        margin-top: 5px;
+        width: 1027px;
+        height: 25px;
+        padding-left: 10px; }
+    body .input_place textarea {
+      margin-top: 5px;
+      width: 1040px;
+      height: 150px; }
+    body .input_place #submit_btn {
+      border: 2px solid #f5c70f;
+      color: #f5c70f;
+      font-size: 15pt;
+      text-transform: uppercase;
+      background: #3b3b3b;
+      width: 200px;
+      height: 50px; }
+
+/*# sourceMappingURL=style2.css.map */

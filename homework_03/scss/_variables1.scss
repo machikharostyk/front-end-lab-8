@@ -1,0 +1,39 @@
+$BackGroundColor:#dcbb9a;
+$ContentColor:#ffffff;
+$HeadingColor:#893c00;
+$BorderColorImg:$HeadingColor;
+$BriefColor:#fadcba;
+$LinkColor:#3d70a1;
+$TableColor:#e0e0e0;
+$InputTextColor:#808080;
+$TextColor:#000000;
+$ColumnColor:#ffffff;
+@mixin long_input{
+	input{
+				margin-top: 5px;
+				width: 1027px;
+				height: 25px;
+				padding-left:10px;
+			}
+}
+@mixin short_input{
+	input{
+				width: 500px;
+				height: 25px;
+				padding-left:10px;
+			}
+}
+@mixin border_img{
+	border: 2px solid $BorderColorImg;
+}
+@mixin brief{
+	.brief{
+		width: 50%;
+		height: 70px;
+		background-color: $BriefColor;
+		float: left;
+		padding: 25px 0px 0px 15px;
+		margin: 0px 20px 10px 0px;
+	
+	}
+}

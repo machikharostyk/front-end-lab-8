@@ -1,0 +1,119 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+background:$BackGroundColor;
+	#content{
+	display: block;
+	background-color: $ContentColor;
+	height: 100%;
+	width: 1050px;
+	margin: auto;
+	margin-top: 15px;
+	padding-left: 20px;
+		h1{
+			color: $HeadingColor;
+			text-align: center;
+			padding-top: 12px;
+			height: 50px;
+		}
+		h2{
+			color: $HeadingColor;
+			height: 50px;
+		}
+	.img-left {
+        float: left;
+		padding: 2px;
+        margin: 0 20px 15px 0;
+      	@include border_img;
+    }
+    .img-right {
+        float: right;
+		padding: 2px;
+        margin: 0px 15px 10px 10px;
+       	@include border_img;
+    	}
+		p{
+			color: $TextColor;
+			margin-bottom: 20px;
+		}
+	}
+	@include brief;
+	a{
+		color: $LinkColor;
+	}
+	table{
+		width: 90%;
+		margin-bottom: 60px;
+		caption{
+			text-align: right;
+		}
+		th{
+			height: 40px;
+			background-color: $TableColor;
+			text-align: left;
+			padding-left: 15px;
+			font-weight: normal;
+			font-size: 13pt;
+			text-transform: uppercase;
+		}
+		td{
+			border-bottom: 1px solid $TableColor;
+			padding-left: 15px;
+			height: 50px;
+			background-color: $ColumnColor;
+			color: $TextColor;
+		}
+	}
+	.input_place{
+		display: block;
+		background: $ContentColor;
+		height: 510px;
+		width: 100%;
+		h2{
+			color: $BackGroundColor;
+		}
+		
+		 p {
+            text-transform: uppercase;
+            color: $LinkColor!important;
+            margin-top: 5px;
+            margin-bottom: 0px!important;
+        }
+		.name_input{
+			float: left;
+			@include short_input;
+		}
+		.right_input{
+			float: right;
+			margin-right: 10px;
+			@include short_input;
+		}
+		.left_input{
+			float: left;
+			text-transform: uppercase;
+			margin-top: 10px;
+			@include long_input;
+
+			
+		}
+		textarea{
+			margin-top: 5px;
+			width: 1040px;
+			height: 150px; 
+		}
+		#submit_btn{
+			border: 2px solid $LinkColor;
+			color: $LinkColor;
+			font-size: 15pt;
+			text-transform: uppercase;
+			background: $ContentColor;
+			width: 200px;
+			height: 50px;
+		}
+	}
+}
+

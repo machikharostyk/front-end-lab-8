@@ -1,0 +1,28 @@
+$BackGroundColor:rgba(198, 238, 252, 0.53);
+$ContentColor:#3b3b3b;
+$HeadingColor:#fccd10;
+$BorderColorImg:$HeadingColor;
+$BriefColor:#fff178;
+$LinkColor:#f5c70f;
+$TableColor:#94a34e;
+$ColumnColor:#677d01;
+$InputTextColor:$LinkColor;
+$TextColor:#ffffff;
+@mixin long_input{
+	input{
+				margin-top: 5px;
+				width: 1027px;
+				height: 25px;
+				padding-left:10px;
+			}
+}
+@mixin short_input{
+	input{
+				width: 500px;
+				height: 25px;
+				padding-left:10px;
+			}
+}
+@mixin border_img{
+	border: 2px solid $BorderColorImg;
+}
