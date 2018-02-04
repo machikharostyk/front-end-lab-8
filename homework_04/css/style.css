@@ -289,6 +289,9 @@ article p span{
 	padding-top: 0px;
 	margin-bottom: 0px;
 }
+.subscribe b{
+	font-weight: bolder;
+}
 .subscribe input{
 	width: 400px;
 	height: 50px;
@@ -299,6 +302,7 @@ article p span{
 }
 .subscribe input::placeholder{
 	padding-left: 20px;
+	font-weight: bolder;
 }
 .subscribe_btn{
 	width: 150px;
@@ -355,6 +359,8 @@ footer{
 }
 .addition_footer h2{
 	margin-bottom: 20px;
+	font-weight: bolder;
+	font-size: 18pt;
 }
 .addition_footer p{
 	color: #9E9E9E;
