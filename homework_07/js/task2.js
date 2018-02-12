@@ -10,7 +10,7 @@ function game_func() {
 	var number = Math.floor(Math.random() * (mult_range + 1));
 	
 	var attempts = 3;
-	while (attempts !== 0 && end_game !== true) {
+	while (attempts !== 0 && game_end !== true) {
 		var game = prompt('Enter a number from 0 to ' + mult_range + '\nAttempts left: ' + attempts + '\nTotal prize: ' + total_prize + '$' + '\nPossible prize on current attempt: ' + possible_prize + '$');
 		if (game == number) {
 			total_prize += possible_prize;
