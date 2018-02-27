@@ -1,0 +1,24 @@
+body{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+li {
+  list-style: none;
+}
+.material-icons {
+  color: #FFEE10;
+}
+.file .material-icons {
+  color: #CFCFCF;
+}
+p {
+  margin:10px;
+}
+p:hover {
+  background-color:#EBF0EE;
+}
+.emptyFolder{
+  font-style: italic;
+  padding-left: 30px;
+}
