@@ -45,13 +45,12 @@ function createTree(arr, root) {
 			createTree(arr[i].children, ul);
 		}
 		if (arr[i].folder && !arr[i].children) {
-			root.appendChild(ul);
-
 			var empty = document.createElement('li');
 			empty.className = 'emptyFolder';
 			empty.innerHTML = 'Folder is empty';
-			li.appendChild(empty);
 			empty.style.display = 'none';
+			li.appendChild(empty);
+			root.appendChild(ul);
 		}
 	}
 }
