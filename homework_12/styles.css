@@ -86,6 +86,7 @@ caption{
 	color: #a19e89;
 	font-size: 20pt;
 	font-family: serif;
+	text-align: left;
 }
 .detail_tank_div{
 	width: 500px;
@@ -99,12 +100,16 @@ table{
 	text-align: left;
 	margin-left: 100px;
 }
-
+table{
+	border: 2px solid #a19e89;	
+	border-collapse: collapse;
+}
 td{
 	color: #a19e89;
 	padding-left: 10px;
 	border: 2px solid #a19e89;	
 }
+
 .back_to_list_view:visited{
 	color: #a19e89;
 }

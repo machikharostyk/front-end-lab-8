@@ -45,7 +45,7 @@ function createMenu(arr) {
 		model_tank.innerHTML = arr[i].model;
 
 
-
+	
 	}
 }
 
@@ -112,6 +112,7 @@ function detailsTank(arr) {
 	
 
 }
+
 if (location.hash === '') {
 	createMenu(tanks);
 }
@@ -121,3 +122,8 @@ for (var i = 0; i < tanks.length; i++) {
 		detailsTank(tanks[i]);
 	}
 }
+	
+
+
+
+
